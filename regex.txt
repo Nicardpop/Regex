@@ -1,0 +1,5 @@
+ EMAIL(Regex("^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}\$")),
+  PHONE(Regex("^\\+?[1-9]\\d{1,14}\$")),
+  PASSWORD(Regex("^(?=.*[A-Z])(?=.*[a-z])(?=.*\\d)(?=.*[^\\w\\s]).{8,}\$")),
+  NAME(Regex("^[a-zA-Z]{5,}\$")),
+  ADDRESS(Regex("^[a-zA-Z0-9-, ]{5,}\$")),
